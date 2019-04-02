@@ -33,6 +33,2966 @@
 
         Dim wstrMsg As String
         wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    BeepPublic Class clsComMsg
+
+        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
+
+        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
+        Private m_sAppTitle As String
+
+
+    Public WriteOnly Property AppTitle() As String
+        Set(ByVal value As String)
+            m_sAppTitle = value
+        End Set
+    End Property
+
+
+    Public Sub NoticeCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
+        '    Beep
+        'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
+        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+
+    End Sub
+
+    Public Sub NoticeCompletion(Optional ByVal strMsg As String = "")
+
+        Me.NoticeCustom("【" & strMsg & "処理】が正常に終了しました。")
+
+    End Sub
+
+    Public Sub ErrorCustom(ByVal strMsg As String)
+
+        Dim wstrMsg As String
+        wstrMsg = vbCrLf & strMsg & vbCrLf
         '    Beep
         'MsgBox(strMsg, vbCritical + vbOKOnly + vbApplicationModal, m_AppObj.Title)
         MsgBox(strMsg, vbCritical + vbOKOnly + vbApplicationModal, m_sAppTitle)
