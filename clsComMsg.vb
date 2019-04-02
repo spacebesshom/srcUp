@@ -19,7 +19,7 @@
         wstrMsg = vbCrLf & strMsg & vbCrLf
         '    Beep
         'MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_AppObj.Title)
-        MsgBox(strMsg, vbInformation + vbOKOnly + vbApplicationModal, m_sAppTitle)
+        MsgBox(strMsg, vbInformation + vbOKOnly  vbApplicationModal, m_sAppTitle)
 
     End Sub
 
