@@ -32,16 +32,6 @@
     Public Sub ErrorCustom(ByVal strMsg As String)
 
         Dim wstrMsg As String
-        wstrMsg = vbCrLf & strMsg & vbCrLf
-        '    BeepPublic Class clsComMsg
-
-        '元はアプリケーションの情報を保持していたが、.NETではアプリケーションの扱いが変わったことと、
-
-        'もともと使用しているのはTitle文字列のみであるため、タイトルを文字列型で保持する
-        Private m_sAppTitle As String
-
-
-    Public WriteOnly Property AppTitle() As String
         Set(ByVal value As String)
             m_sAppTitle = value
         End Set
